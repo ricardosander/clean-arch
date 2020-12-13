@@ -19,8 +19,8 @@ public class Student {
         phoneNumbers = new ArrayList<>();
     }
 
-    public CPF getCpf() {
-        return cpf;
+    public String getCpf() {
+        return cpf.getNumber();
     }
 
     public String getName() {

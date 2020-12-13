@@ -17,7 +17,7 @@ class StudentBuilderTest {
 
         assertNotNull(student);
         assertEquals(name, student.getName());
-        assertEquals(cpf, student.getCpf().getNumber());
+        assertEquals(cpf, student.getCpf());
         assertEquals(email, student.getEmail().getAddress());
     }
 
@@ -36,7 +36,7 @@ class StudentBuilderTest {
 
         assertNotNull(student);
         assertEquals(name, student.getName());
-        assertEquals(cpf, student.getCpf().getNumber());
+        assertEquals(cpf, student.getCpf());
         assertEquals(email, student.getEmail().getAddress());
         assertEquals(1, student.getPhoneNumbers().size());
         assertEquals(areaCode, student.getPhoneNumbers().get(0).getAreaCode());
@@ -61,7 +61,7 @@ class StudentBuilderTest {
 
         assertNotNull(student);
         assertEquals(name, student.getName());
-        assertEquals(cpf, student.getCpf().getNumber());
+        assertEquals(cpf, student.getCpf());
         assertEquals(email, student.getEmail().getAddress());
         assertEquals(2, student.getPhoneNumbers().size());
         assertEquals(firstAreaCode, student.getPhoneNumbers().get(0).getAreaCode());
