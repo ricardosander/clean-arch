@@ -1,4 +1,5 @@
-package school;
+package io.github.ricardosander.school.domain.student;
+
 public class Email {
 
     private static final String VALID_EMAIL_REGEX = "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$";

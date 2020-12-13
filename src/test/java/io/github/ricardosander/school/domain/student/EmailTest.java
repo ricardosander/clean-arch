@@ -1,4 +1,4 @@
-package school;
+package io.github.ricardosander.school.domain.student;
 
 import static org.junit.jupiter.api.Assertions.*;
 

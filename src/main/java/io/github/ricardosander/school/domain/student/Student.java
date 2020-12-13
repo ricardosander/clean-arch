@@ -1,4 +1,4 @@
-package school;
+package io.github.ricardosander.school.domain.student;
 
 import java.util.ArrayList;
 import java.util.Collections;
