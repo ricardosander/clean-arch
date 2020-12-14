@@ -1,4 +1,6 @@
-package io.github.ricardosander.school.domain.student;
+package io.github.ricardosander.school.domain.indication;
+
+import io.github.ricardosander.school.domain.student.Student;
 
 import java.time.LocalDateTime;
 
