@@ -27,8 +27,8 @@ public class Student {
         return name;
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getAddress();
     }
 
     public List<PhoneNumber> getPhoneNumbers() {
